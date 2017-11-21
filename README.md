@@ -1,5 +1,5 @@
 # react-typeahead
-Recreating my typeahead repo with React components
+A typeahead with React components
 
 # Usage
 $ mongod $ npm install $ npm run seed $ npm start
