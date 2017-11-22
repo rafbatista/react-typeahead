@@ -4,9 +4,9 @@
   "description": "Recreating my typeahead repo with React components",
   "main": "index.js",
   "scripts": {
-    "bundle": "browserify public/main.js -t babelify -o public/bundle.js",
+    "bundle": "browserify client/index.js -t babelify -o public/bundle.js",
     "bundle:watch":
-      "watchify public/main.js -vd -t babelify -o public/bundle.js",
+      "watchify client/index.js -vd -t babelify -o public/bundle.js",
     "lint": "run-p lint:*",
     "lint:html": "htmlhint ./**/*.html",
     "lint:css": "stylelint ./**/*.css",
