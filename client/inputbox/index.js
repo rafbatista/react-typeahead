@@ -22,10 +22,7 @@ export default class InputBox extends React.Component {
   render() {
     return (
       <div className="input-box">
-        <SearchBar
-          getSuggestions={this.getSuggestions}
-          filterText={this.state.filterText}
-        />
+        <SearchBar getSuggestions={this.getSuggestions} />
         <SearchBox suggestions={this.state.suggestions} />
       </div>
     )
